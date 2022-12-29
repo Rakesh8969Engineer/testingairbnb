@@ -1,0 +1,231 @@
+<html lang="en">
+  <head>
+    <style>
+      #checkbtn {
+        float: right;
+        font-size: 1.25rem;
+        display: none;
+      }
+      
+      #check {
+        display: none;
+      }
+
+      @media only screen and (max-width: 926px) {
+        #checkbtn {
+          display: block;
+        }
+
+       .main-nav-forums,.main-nav-buttons {
+          display: none;
+        }
+
+
+      
+
+
+
+
+
+
+
+
+      
+    
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- {{! <external css  }} -->
+
+    <link rel="stylesheet" type="text/css" href="../views/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Airbnb</title>
+  </head>
+
+  <body>
+    <div id="parent">
+        <input type="checkbox" name="" id="check" value="" />
+        <label for="check" id="checkbtn"><i class="fa-solid fa-bars"></i></label>
+
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-light">
+      <div
+        class="container-fluid"
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 2.5rem;
+        "
+      >
+        <span
+          class="navbar-brand mb-0 h1"
+          style="font-size: 18px; margin-left: 20px"
+          >Show total prices up front</span
+        >
+        <span
+          ><a
+            href="https://www.airbnb.co.in/host/homes"
+            class="btn btn-link"
+            style="
+              color: black;
+              font-weight: bolder;
+              font-size: 18px;
+              margin-right: 20px;
+            "
+            >Learn more</a
+          ></span
+        >
+      </div>
+    </nav>
+
+    <div
+      class="main-nav"
+      style="
+        display: flex;
+        justify-content: space-between;
+        padding-left: 30px;
+        margin-top: 20px;
+      "
+    >
+      <div class="main-nav-logo">
+        <img
+          src="https://lh3.googleusercontent.com/X-SV04noQX_CzaQ6PZclf6WsrhWnmiVM0Xpsfeopf_-Lio1e4n8tMpqjCqBiUmP6OD8=w2400"
+          height="30px"
+          width="85px"
+          alt="airbnb"
+          style="filter: saturate(4)"
+        />
+      </div>
+      <div
+        class="main-nav-buttons"
+        style="
+          box-shadow: 2px 2px 2px 2px rgb(245, 248, 249);
+          border: 1px solid rgb(200, 188, 188);
+          border-radius: 25px;
+          margin-left: 9rem;
+        "
+      >
+        <a
+          class="btn"
+          href="#"
+          role="button"
+          style="
+            margin-bottom: 3px;
+            font-weight: bold;
+            font-weight: bold;
+            font-size: 15px;
+          "
+          >Anywhere
+        </a>
+        <a
+          class="btn"
+          href="#"
+          role="button"
+          style="margin-bottom: 3px; font-weight: bold; font-size: 15px"
+          >Any Week
+        </a>
+        <a class="btn" href="#" role="button" style="font-size: 15px">
+          Add Guests
+          <img
+            src="https://lh3.googleusercontent.com/0cU0NAhhUlVzIuhNOyHEl4w1hvtK9rZHA_NFlxNm6BaHSCj-8aolMjFbtqDJ6S09u5M=w2400"
+            height="30px"
+            width="30px"
+            style="margin-left: 17px"
+        /></a>
+      </div>
+
+      <div
+        class="main-nav-forums"
+        style="margin-right: 20px; border: 0.5px solid whitesmoke"
+      >
+        <a
+          class="btn"
+          href="#"
+          role="button"
+          style="font-weight: 700; font-size: 15px"
+        >
+          Airbnb your home</a
+        >
+        <a class="btn" href="#" role="button">
+          <i class="fa-solid fa-globe"></i
+        ></a>
+
+        <a
+          class="btn"
+          href="#"
+          role="button"
+          style="border: 2px solid rgb(237, 222, 222); border-radius: 25px"
+        >
+          <i class="fa-solid fa-md fa-bars"></i>
+          <i
+            class="fa-solid fa-xl fa-circle-user"
+            style="padding-left: 10px"
+          ></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- {{! bootstrap card section started by self }} -->
+
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        background-color: rgb(118, 91, 91);
+        margin-top: 10px;
+      "
+    ></div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
